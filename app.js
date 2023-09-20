@@ -18,7 +18,7 @@ app.use(upload({
 // מבטל אבטחה , ומאפשר לבצע בקשת איי פי איי מדומיין משרת אחר
 
 app.use(cors({
-    origin:config.projectURL,
+    origin:"http://localhost:3000",
     credentials:true
 }));
 
