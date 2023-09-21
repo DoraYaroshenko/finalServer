@@ -5,7 +5,6 @@ const cors  = require("cors");
 const cookieParser = require("cookie-parser");
 const upload = require("express-fileupload");
 const {routesInit} = require("./routes/configRoutes");
-const {config} = require("../config/secret")
 
 // התחברות למסד 
 require("./db/mongoConnect");
